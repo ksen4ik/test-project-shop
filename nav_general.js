@@ -1,14 +1,4 @@
 document.write('\
-  <div class="container-fluid">\
-      <div class="b-header__logo">\
-          <a href="/index.html" class="navbar-brand p-0">\
-              <img \
-              src="/images/StyleRoom_logo.png" \
-              class="b-header__logo-img" \
-              alt="Logo Style Room"\
-              width="150">\
-          </a>\
-      </div>\
     <button class="navbar-toggler" \
     type="button" \
     data-bs-toggle="collapse" \
@@ -30,7 +20,7 @@ document.write('\
               Catalog\
           </a>\
           <ul class="dropdown-menu dropdown-menu-dark">\
-              <li><a class="dropdown-item active" href="html/dresses.html">Dresses</a></li>\
+              <li><a class="dropdown-item" href="html/dresses.html">Dresses</a></li>\
               <li><a class="dropdown-item" href="html/skirts.html">Skirts</a></li>\
               <li><a class="dropdown-item" href="html/shorts.html">Shorts</a></li>\
               <li><a class="dropdown-item" href="html/jeans.html">Jeans</a></li>\
@@ -65,5 +55,4 @@ document.write('\
         Sign up\
       </button>\
     </div>\
-  </div>\
 ');
