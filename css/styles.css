@@ -1,0 +1,130 @@
+.bg-size {
+    background-size: cover;
+    background-color: rgb(238, 246, 254);
+}
+
+.bg-dress-fixed {
+    background-image: "catalog_bg2.png";
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-bar-pos {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.content-pos {
+    z-index: 2;
+}
+
+.border-text {
+    box-shadow: 0 0 100px rgba(150, 100, 100, 0.5);
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+
+.cont {
+    width: 60%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.img-cont {
+width: 100%;
+height: auto;
+}
+
+.img-size {
+    width: 100%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.0);
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.rounded-img {
+    width: 60%;
+    padding: 0.3em;
+    margin-bottom: 1.5em;
+}
+
+.card {
+    text-align: center;
+    align-content: center;
+    padding: 1em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.card-main-page {
+    text-align: center;
+    align-content: center;
+    padding: 1em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-div {
+    position: relative;
+    height: 70px;
+    background: #ddd;
+  }
+
+.btn-color {
+    background-color: darksalmon;
+}
+
+.btn-inst {
+    width: 40%;
+}
+
+.btn-search {
+    width: 50px; 
+    position: relative;
+}
+
+.input-search {
+    width: 400px;
+}
+
+.search-position {
+    margin-right: 10%;
+}
+
+.catalog-margin {
+    margin-left: 3%;
+}
+
+.sign-up-header {
+    background: rgb(237, 218, 218);
+}
+
+.or-set {
+    color: #ddd;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 1%;
+}
+
+.sale {
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+
+
+
+
+
+
