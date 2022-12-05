@@ -1,7 +1,7 @@
 document.write('\
   <div class="container-fluid">\
       <div class="b-header__logo">\
-          <a href="../index.html" class="navbar-brand p-0">\
+          <a href="/index.html" class="navbar-brand p-0">\
               <img \
               src="/images/StyleRoom_logo.png" \
               class="b-header__logo-img" \
