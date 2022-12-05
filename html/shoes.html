@@ -42,16 +42,16 @@
     }
     </style>
 
-<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
 <link rel="manifest" href="../site.webmanifest">
-<link type="text/css" rel="stylesheet" href="/css/styles.css">
+<link type="text/css" rel="stylesheet" href="../css/styles.css">
 
 </head>
-<body class="bg-size" background="/images/catalog_bg2.png">
+<body class="bg-size" background="../images/catalog_bg2.png">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-bar-pos">
-      <div class="container-fluid">
+    <div class="container-fluid">
         <div class="b-header__logo">
             <a href="../index.html" class="navbar-brand p-0">
                 <img 
@@ -61,8 +61,15 @@
                 width="150">
             </a>
         </div>
-      </div>
-      <script src="../nav_general.js"></script>
+      <button class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 catalog-margin">
           <li class="nav-item dropdown">
@@ -90,26 +97,27 @@
             <a class="nav-link" href="aboutus.html">About us</a>
           </li>
         </ul>
-  
+
         <div class="search-position">
           <form class="d-flex mt-1.6" role="search">
             <input class="form-control me-2 input-search" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-search btn-secondary" type="submit">Go</button>
           </form>
         </div>
-  
+
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLogIn">
           Log in
         </button>
-  
+
         <li class="nav-item or-set">
           <p type="text">or</p>
         </li>
-  
+
         <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalSignUp">
           Sign up
         </button>
       </div>
+    </div>
   </nav>
 
   <div class="content-pos">
@@ -130,91 +138,91 @@
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
         <div class="col">
           <div class="card">
-            <img src="/images/shoes_1.png" class="card-img-top" alt="dress-mini (black)">
+            <img src="../images/shoes_1.png" class="card-img-top" alt="dress-mini (black)">
             <div class="card-body">
               <h5 class="card-title">Shoes</h5>
               <p class="card-text">Size: 42, 44, 46, 48</p>
               <p class="card-text">19.99$</p>
               <a href="#openModal" class="btn btn-color">
-                <img src="/images/basket.png" alt="Put into a basket">
+                <img src="../images/basket.png" alt="Put into a basket">
               </a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="/images/shoes_2.png" class="card-img-top" alt="dress-mini (light-green)">
+            <img src="../images/shoes_2.png" class="card-img-top" alt="dress-mini (light-green)">
             <div class="card-body">
               <h5 class="card-title">Shoes</h5>
               <p class="card-text">Size: 42, 44</p>
               <p class="card-text">18.99$</p>
               <a href="#openModal" class="btn btn-color">
-                <img src="/images/basket.png" alt="Put into a basket">
+                <img src="../images/basket.png" alt="Put into a basket">
               </a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="/images/shoes_3.png" class="card-img-top" alt="dress-mini (dark-green)">
+            <img src="../images/shoes_3.png" class="card-img-top" alt="dress-mini (dark-green)">
             <div class="card-body">
               <h5 class="card-title">Shoes</h5>
               <p class="card-text">Size: 42, 44, 46</p>
               <p class="card-text">22.99$</p>
               <a href="#openModal" class="btn btn-color">
-                <img src="/images/basket.png" alt="Put into a basket">
+                <img src="../images/basket.png" alt="Put into a basket">
               </a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="/images/shoes_4.png" class="card-img-top" alt="dress-midi (red)">
+            <img src="../images/shoes_4.png" class="card-img-top" alt="dress-midi (red)">
             <div class="card-body">
               <h5 class="card-title">Shoes</h5>
               <p class="card-text">Size: 42, 44</p>
               <p class="card-text">20.99$</p>
               <a href="#openModal" class="btn btn-color">
-                <img src="/images/basket.png" alt="Put into a basket">
+                <img src="../images/basket.png" alt="Put into a basket">
               </a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="/images/shoes_5.png" class="card-img-top" alt="dress-maxi (blue)">
+            <img src="../images/shoes_5.png" class="card-img-top" alt="dress-maxi (blue)">
             <div class="card-body">
               <h5 class="card-title">Shoes</h5>
               <p class="card-text">Size: 44, 46, 48</p>
               <p class="card-text">19.99$</p>
               <a href="#openModal" class="btn btn-color">
-                <img src="/images/basket.png" alt="Put into a basket">
+                <img src="../images/basket.png" alt="Put into a basket">
               </a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="/images/shoes_6.png" class="card-img-top" alt="dress-midi (light)">
+            <img src="../images/shoes_6.png" class="card-img-top" alt="dress-midi (light)">
             <div class="card-body">
               <h5 class="card-title">Shoes</h5>
               <p class="card-text">Size: 42, 44, 46</p>
               <p class="card-text">20.99$</p>
               <a href="#openModal" class="btn btn-color">
-                <img src="/images/basket.png" alt="Put into a basket">
+                <img src="../images/basket.png" alt="Put into a basket">
               </a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="/images/shoes_7.png" class="card-img-top" alt="dress-midi (light)">
+            <img src="../images/shoes_7.png" class="card-img-top" alt="dress-midi (light)">
             <div class="card-body">
               <h5 class="card-title">Shoes</h5>
               <p class="card-text">Size: 42, 44, 48</p>
               <p class="card-text">18.99$</p>
               <a href="#openModal" class="btn btn-color">
-                <img src="/images/basket.png" alt="Put into a basket">
+                <img src="../images/basket.png" alt="Put into a basket">
               </a>
             </div>
           </div>
