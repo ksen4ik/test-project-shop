@@ -21,15 +21,6 @@
     crossorigin="anonymous">
     </script>
 
-    <style>
-    .img-cont {
-      align-content: center;
-      width: 100%;
-      height: 100%;
-      opacity: 0.9;
-    }
-    </style>
-
     <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
@@ -38,8 +29,8 @@
 
 </head>
 
-<body class="bg-size">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-bar-pos">
+<body class="bg-size" style="background-color: whitesmoke; flex-direction: column;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-bar-pos">
     <div class="container-fluid">
         <div class="b-header__logo">
             <a href="index.html" class="navbar-brand p-0">
@@ -99,7 +90,7 @@
         </button>
 
         <li class="nav-item or-set">
-          <p type="text">or</p>
+          <p type="text">   </p>
         </li>
 
         <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalSignUp">
@@ -118,20 +109,23 @@
       <div class="modal fade" id="exampleModalSignUp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <script src="js/registration.js"></script>
       </div>
-
+    <div style="flex-grow: 1;">
       <div>
         <a href="html/newcollection.html">
-          <img class="img-cont" src="images/5-4.png" alt="New collection image" title="Click here">
+          <img class="img-cont transition-scale" src="images/5-4.png" alt="New collection image" title="Click here">
         </a>
       </div>
+      <div>
+        <a href="html/t-shirts.html">
+          <img class="img-cont transition-scale" src="images/custom_tshirts.jpg" alt="Custom t-shirts image" title="Click here">
+        </a>
+      </div>
+    </div>
 
       <div class="bottom-div">
-        <p class="container text-center">2022 © Style Room — internet-store of clothes. 
+        <p class="text-center">2022 © Style Room — internet-store of clothes. 
         </br> All rights reserved.
         </p>
       </div>
-
-  </div>
-
 </body>
 </html>
