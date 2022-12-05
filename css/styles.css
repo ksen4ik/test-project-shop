@@ -1,6 +1,6 @@
 .bg-size {
     background-size: cover;
-    background-color: rgb(238, 246, 254);
+    background-color: rgb(240, 240, 240);
 }
 
 .bg-dress-fixed {
@@ -38,8 +38,8 @@
 }
 
 .img-cont {
-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .img-size {
@@ -76,17 +76,15 @@ height: auto;
 }
 
 .bottom-div {
-    position: relative;
+    box-sizing: border-box;
+    padding-top: 120px;
     height: 70px;
-    background: #ddd;
-  }
-
-.btn-color {
-    background-color: darksalmon;
+    width: 100%;
+    font-size: small;
 }
 
-.btn-inst {
-    width: 40%;
+.btn-color {
+    background-color: rgb(231, 179, 162);
 }
 
 .btn-search {
@@ -95,11 +93,11 @@ height: auto;
 }
 
 .input-search {
-    width: 400px;
+    width: 90%;
 }
 
 .search-position {
-    margin-right: 10%;
+    margin-right:5%;
 }
 
 .catalog-margin {
@@ -122,9 +120,13 @@ height: auto;
     margin-left: 1%;
 }
 
-
-
-
-
-
-
+.transition-scale {
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.transition-scale:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
