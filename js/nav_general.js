@@ -3,7 +3,7 @@ document.write('\
       <div class="b-header__logo">\
           <a href="../index.html" class="navbar-brand p-0">\
               <img \
-              src="images/StyleRoom_logo.png" \
+              src="/images/StyleRoom_logo.png" \
               class="b-header__logo-img" \
               alt="Logo Style Room"\
               width="150">\
