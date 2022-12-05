@@ -3,7 +3,7 @@ document.write('\
       <div class="b-header__logo">\
           <a href="../index.html" class="navbar-brand p-0">\
               <img \
-              src="/images/StyleRoom_logo.png" \
+              src="../images/StyleRoom_logo.png" \
               class="b-header__logo-img" \
               alt="Logo Style Room"\
               width="150">\
@@ -30,19 +30,19 @@ document.write('\
               Catalog\
           </a>\
           <ul class="dropdown-menu dropdown-menu-dark">\
-              <li><a class="dropdown-item active" href="html/dresses.html">Dresses</a></li>\
-              <li><a class="dropdown-item" href="html/skirts.html">Skirts</a></li>\
-              <li><a class="dropdown-item" href="html/shorts.html">Shorts</a></li>\
-              <li><a class="dropdown-item" href="html/jeans.html">Jeans</a></li>\
-              <li><a class="dropdown-item" href="html/t-shirts.html">T-shirts</a></li>\
-              <li><a class="dropdown-item" href="html/shoes.html">Shoes</a></li>\
+              <li><a class="dropdown-item active" href="../html/dresses.html">Dresses</a></li>\
+              <li><a class="dropdown-item" href="../html/skirts.html">Skirts</a></li>\
+              <li><a class="dropdown-item" href="../html/shorts.html">Shorts</a></li>\
+              <li><a class="dropdown-item" href="../html/jeans.html">Jeans</a></li>\
+              <li><a class="dropdown-item" href="../html/t-shirts.html">T-shirts</a></li>\
+              <li><a class="dropdown-item" href="../html/shoes.html">Shoes</a></li>\
           </ul>\
         </li>\
         <li class="nav-item">\
-          <a class="nav-link" aria-current="page" href="html/newcollection.html">New collection</a>\
+          <a class="nav-link" aria-current="page" href="../html/newcollection.html">New collection</a>\
         </li>\
         <li class="nav-item">\
-          <a class="nav-link" href="html/aboutus.html">About us</a>\
+          <a class="nav-link" href="../html/aboutus.html">About us</a>\
         </li>\
       </ul>\
 \
