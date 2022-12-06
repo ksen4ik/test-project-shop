@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
     <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/catalog.css">
 
 </head>
 
@@ -45,7 +46,7 @@
                 aria-expanded="false">
                 Catalog
             </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-content">
                 <li><a class="dropdown-item" href="html/dresses.html">Dresses</a></li>
                 <li><a class="dropdown-item" href="html/skirts.html">Skirts</a></li>
                 <li><a class="dropdown-item" href="html/shorts.html">Shorts</a></li>
@@ -65,16 +66,16 @@
         <div class="search-position">
           <form class="d-flex mt-1.6" role="search">
             <input class="form-control me-2 input-search" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-search btn-secondary" type="submit">Go</button>
+            <button class="btn btn-search btn-light" type="submit">Go</button>
           </form>
         </div>
 
-        <button type="button" class="btn btn-light rounded-btn" data-bs-toggle="modal" data-bs-target="#exampleModalLogIn">
+        <button type="button" class="btn btn-light rounded-btn" style="margin: 15px 0px;" data-bs-toggle="modal" data-bs-target="#exampleModalLogIn">
           Log in
         </button>
 
         <li class="nav-item or-set">
-          <p type="text">   </p>
+          <p type="text">  </p>
         </li>
 
         <button type="button" class="btn btn-dark rounded-btn" data-bs-toggle="modal" data-bs-target="#exampleModalSignUp">
@@ -93,6 +94,7 @@
       <div class="modal fade" id="exampleModalSignUp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <script src="js/registration.js"></script>
       </div>
+
     <div style="flex-grow: 1;">
       <div>
         <a href="html/newcollection.html">
@@ -102,6 +104,11 @@
       <div>
         <a href="html/t-shirts.html">
           <img class="img-cont transition-scale" src="images/custom_tshirts.jpg" alt="Custom t-shirts image" title="Click here">
+        </a>
+      </div>
+      <div>
+        <a href="html/dresses.html">
+          <img class="img-cont transition-scale" src="images/newdress.jpg" alt="Custom t-shirts image" title="Click here">
         </a>
       </div>
     </div>
