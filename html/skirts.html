@@ -1,0 +1,216 @@
+<!--127.0.0.1 - IP-адрес компа, 5500 - локальный сервер-->
+<!DOCTYPE html>  <!--инструкция, чтобы браузер понимал, что это файл html-->
+<html lang="en">
+<head>
+  
+  <script src="../general/head.js"></script>
+
+    <style>
+    .card {
+      text-align: center;
+      align-content: center;
+      padding: 1em;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn-color {
+      background-color: darksalmon;
+    }
+
+    </style>
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
+<link type="text/css" rel="stylesheet" href="../css/styles.css">
+<link type="text/css" rel="stylesheet" href="../css/catalog.css">
+
+</head>
+<body class="bg-size" background="../images/catalog_bg2.png">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-bar-pos">
+    <div class="container-fluid">
+        <div class="b-header__logo">
+            <a href="../index.html" class="navbar-brand p-0">
+                <img 
+                src="../images/StyleRoom_logo.png" 
+                class="b-header__logo-img" 
+                alt="Logo Style Room"
+                width="150">
+            </a>
+        </div>
+      <button class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 catalog-margin">
+          <li class="nav-item dropdown">
+            <a 
+                class="nav-link dropdown-toggle active" 
+                href="#" 
+                role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                Catalog
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-content">
+                <li><a class="dropdown-item" href="dresses.html">Dresses</a></li>
+                <li><a class="dropdown-item active" href="skirts.html">Skirts</a></li>
+                <li><a class="dropdown-item" href="shorts.html">Shorts</a></li>
+                <li><a class="dropdown-item" href="jeans.html">Jeans</a></li>
+                <li><a class="dropdown-item" href="t-shirts.html">T-shirts</a></li>
+                <li><a class="dropdown-item" href="shoes.html">Shoes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="newcollection.html">New collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+          </li>
+        </ul>
+
+        <div class="search-position">
+          <form class="d-flex mt-1.6" role="search">
+            <input class="form-control me-2 input-search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-search btn-light" type="submit">Go</button>
+          </form>
+        </div>
+        <a class="btn btn-light rounded-btn" style="margin: 15px 0px;" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Your account</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-pos">
+    <script src="../js/auth.js"></script>
+  </div>
+
+    <div class="container text-center my-3">
+      <h1 class="fw-light">Skirts</h1>
+    </div>
+
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="../images/skirt_1.png" class="card-img-top" alt="dress-mini (black)">
+            <div class="card-body">
+              <h5 class="card-title">Skirt</h5>
+              <p class="card-text">Size: S, M</p>
+              <p class="card-text">20.99$</p>
+              <a href="#openModal" class="btn btn-color">
+                <img src="../images/basket.png" alt="Put into a basket">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/skirt_2.png" class="card-img-top" alt="dress-mini (light-green)">
+            <div class="card-body">
+              <h5 class="card-title">Skirt</h5>
+              <p class="card-text">Size: S</p>
+              <p class="card-text">15.99$</p>
+              <a href="#openModal" class="btn btn-color">
+                <img src="../images/basket.png" alt="Put into a basket">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/skirt_3.png" class="card-img-top" alt="dress-mini (dark-green)">
+            <div class="card-body">
+              <h5 class="card-title">Skirt</h5>
+              <p class="card-text">Size: S, M, L</p>
+              <p class="card-text">19.99$</p>
+              <a href="#openModal" class="btn btn-color">
+                <img src="../images/basket.png" alt="Put into a basket">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/skirt_4.png" class="card-img-top" alt="dress-midi (red)">
+            <div class="card-body">
+              <h5 class="card-title">Skirt</h5>
+              <p class="card-text">Size: M, L</p>
+              <p class="card-text">24.99$</p>
+              <a href="#openModal" class="btn btn-color">
+                <img src="../images/basket.png" alt="Put into a basket">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/skirt_5.png" class="card-img-top" alt="dress-maxi (blue)">
+            <div class="card-body">
+              <h5 class="card-title">Skirt</h5>
+              <p class="card-text">Size: M</p>
+              <p class="card-text">18.99$</p>
+              <a href="#openModal" class="btn btn-color">
+                <img src="../images/basket.png" alt="Put into a basket">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/skirt_6.png" class="card-img-top" alt="dress-midi (light)">
+            <div class="card-body">
+              <h5 class="card-title">Skirt</h5>
+              <p class="card-text">Size: S, L</p>
+              <p class="card-text">21.99$</p>
+              <a href="#openModal" class="btn btn-color">
+                <img src="../images/basket.png" alt="Put into a basket">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/skirt_7.png" class="card-img-top" alt="dress-midi (light)">
+            <div class="card-body">
+              <h5 class="card-title">Skirt</h5>
+              <p class="card-text">Size: M, L</p>
+              <p class="card-text">20.99$</p>
+              <a href="#openModal" class="btn btn-color">
+                <img src="../images/basket.png" alt="Put into a basket">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../images/skirt_8.png" class="card-img-top" alt="dress-midi (light)">
+            <div class="card-body">
+              <h5 class="card-title">Skirt</h5>
+              <p class="card-text">Size: S</p>
+              <p class="card-text">16.99$</p>
+              <a href="#openModal" class="btn btn-color">
+                <img src="../images/basket.png" alt="Put into a basket">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+    <div class="bottom-div">
+      <p class="container text-center">2022 © Style Room — internet-store of clothes. 
+      </br> All rights reserved.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
