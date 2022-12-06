@@ -1,16 +1,16 @@
 document.write('\
   <div class="modal-dialog modal-lg">\
     <div class="modal-content">\
-      <div class="modal-header sign-up-header">\
-        <h1 class="modal-title fs-4" id="exampleModalLabel">Quick Registration</h1>\
+      <div class="modal-header sign-up-header" style="background-color: rgb(200, 220, 220)">\
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Quick Registration</h1>\
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>\
       </div>\
       <form class="row g-3">\
-        <div class="col-md-3">\
+        <div class="col-md-5">\
           <label for="validationDefault01" class="form-label">First name</label>\
           <input type="text" class="form-control" id="validationDefault01" value="" required>\
         </div>\
-        <div class="col-md-3">\
+        <div class="col-md-5">\
           <label for="validationDefault02" class="form-label">Last name</label>\
           <input type="text" class="form-control" id="validationDefault02" value="" required>\
         </div>\
@@ -35,7 +35,7 @@ document.write('\
           </div>\
         </div>\
         <div class="col-md-4">\
-          <label for="validationDefault05" class="form-label">E-mail address</label>\
+          <label for="validationDefault05" class="form-label">E-mail</label>\
           <input type="text" class="form-control" id="validationDefault05" required>\
         </div>\
         <div class="col-md-3">\
@@ -50,8 +50,8 @@ document.write('\
             </label>\
           </div>\
         </div>\
-        <div class="col-12">\
-          <button class="btn btn-primary" type="submit">Submit form</button>\
+        <div class="col-5" style="margin-left: 40%">\
+          <button class="btn btn-secondary" type="submit">Submit form</button>\
         </div>\
     </div>\
   </div>\
