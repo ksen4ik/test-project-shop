@@ -57,6 +57,14 @@
     margin-bottom: 1.5em;
 }
 
+.rounded-btn {
+    border-radius: 30px;
+    width: 7%;
+    height: auto;
+    padding: 10px;
+    margin: 4px 2px;
+}
+
 .card {
     text-align: center;
     align-content: center;
@@ -84,7 +92,7 @@
 }
 
 .btn-color {
-    background-color: rgb(231, 179, 162);
+    background-color: rgb(236, 205, 196);
 }
 
 .btn-search {
@@ -126,6 +134,7 @@
     cursor: pointer;
     transition: 0.5s linear;
 }
+
 .transition-scale:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
