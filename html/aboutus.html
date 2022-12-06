@@ -1,0 +1,120 @@
+<!--127.0.0.1 - IP-адрес компа, 5500 - локальный сервер-->
+<!DOCTYPE html>  <!--инструкция, чтобы браузер понимал, что это файл html-->
+<html lang="en">
+<head>
+
+  <script src="../general/head.js"></script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link type="text/css" rel="stylesheet" href="../css/styles.css">
+  <link type="text/css" rel="stylesheet" href="../css/catalog.css">
+
+</head>
+<body class="bg-size" background="../images/catalog_bg2.png">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-bar-pos">
+    <div class="container-fluid">
+        <div class="b-header__logo">
+            <a href="../index.html" class="navbar-brand p-0">
+                <img 
+                src="../images/StyleRoom_logo.png" 
+                class="b-header__logo-img" 
+                alt="Logo Style Room"
+                width="150">
+            </a>
+        </div>
+      <button class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 catalog-margin">
+          <li class="nav-item dropdown">
+            <a 
+                class="nav-link dropdown-toggle" 
+                href="#" 
+                role="button" 
+                data-bs-toggle="dropdown" 
+                aria-expanded="false">
+                Catalog
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-content">
+                <li><a class="dropdown-item" href="dresses.html">Dresses</a></li>
+                <li><a class="dropdown-item" href="skirts.html">Skirts</a></li>
+                <li><a class="dropdown-item" href="shorts.html">Shorts</a></li>
+                <li><a class="dropdown-item" href="jeans.html">Jeans</a></li>
+                <li><a class="dropdown-item" href="t-shirts.html">T-shirts</a></li>
+                <li><a class="dropdown-item" href="shoes.html">Shoes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="newcollection.html">New collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="aboutus.html">About us</a>
+          </li>
+        </ul>
+
+        <div class="search-position">
+          <form class="d-flex mt-1.6" role="search">
+            <input class="form-control me-2 input-search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-search btn-light" type="submit">Go</button>
+          </form>
+        </div>
+        <a class="btn btn-light rounded-btn" style="margin: 15px 0px;" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Your account</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content-pos">
+    <script src="../js/auth.js"></script>
+  </div>
+
+  <div class="modal fade" id="exampleModalLogIn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <script src="../js/login.js"></script>
+  </div>
+  
+  <div class="modal fade" id="exampleModalSignUp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <script src="../js/registration.js"></script>
+  </div>
+
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-4 col-sm-3 mx-auto cont">
+          <img class="img-cont transition-scale" src="../images/aboutus.jpg" alt="Photo"/>
+          <h2 class="fw-light" style="padding-top: 5%;">About the brand</h2>
+          <p class="lead text-muted">
+            Kseniya Kotova is the creator and main inspirer of the Style Room brand. The Style Room declares a very modern, and at the same time a subtly sensitive image.
+            Summer collections are filled with soft and expensive fabrics that are pleasant to the body, rich patterns: T-shirts, dresses have become the hallmark of the brand.
+          </p>
+          <h2 class="fw-light">Why us?</h2>
+          <p class="lead text-muted">
+            Style Room - a new and very popular clothing store with a large assortment knowing all over the world.
+            Everyone will be able to pick up something for themselves at DISCOUNTED PRICES without any problems.
+          </p>
+          <h2 class="fw-light">Follow us</h2>
+          <p class="lead text-muted">
+            You can follow our founder on           
+            <a href="https://www.instagram.com/ksen4ik.k/" 
+            target="_blank">Instagram</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-div">
+      <p class="text-center">2022 © Style Room — internet-store of clothes. 
+      </br> All rights reserved.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
