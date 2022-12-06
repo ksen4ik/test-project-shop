@@ -58,11 +58,10 @@
 }
 
 .rounded-btn {
-    border-radius: 30px;
-    width: 7%;
-    height: auto;
-    padding: 7px;
+
     border: 1px solid whitesmoke;
+    padding: .6em 1em;
+    border-radius: 50em;
 }
 
 .card {
@@ -113,7 +112,15 @@
 }
 
 .sign-up-header {
-    background: rgb(237, 218, 218);
+    background-color: #000;
+    opacity: 0.7;
+}
+
+.sign-up-btn {
+    background-color: #000; 
+    color: white; 
+    opacity: 0.7; 
+    border: 1px solid white;
 }
 
 .or-set {
@@ -138,4 +145,16 @@
 .transition-scale:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
+}
+
+.cd-close-form {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 0;
+    top: -20px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
